@@ -35,7 +35,7 @@
             $this.append( $($children[0]).clone() );
 
             $children = $this.children();
-            maxIndex  = $children.length - 1;
+            maxIndex  = $children.size() - 1;
 
             // --- css settings ---
             // set wrap css.
